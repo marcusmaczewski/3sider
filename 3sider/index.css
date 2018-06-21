@@ -10,6 +10,8 @@
     border: 2px solid black;
     margin: auto;
     font-size: 45px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .div1 {
@@ -35,9 +37,9 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #186854;
-}
+    button:hover {
+        background-color: #186854;
+    }
 
 a:hover {
     color: red
