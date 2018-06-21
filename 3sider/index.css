@@ -6,8 +6,8 @@
 .background_div {
     background-color: lightblue;
     width: 1000px;
-    height: 5000px;
-    border: 2px solid black;
+    height: 750px;
+    border: 1px solid black;
     margin: auto;
     font-size: 45px;
 }
