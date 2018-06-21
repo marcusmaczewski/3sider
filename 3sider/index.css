@@ -4,10 +4,10 @@
 }
 
 .background_div {
-    background-color: lightblue;
+    background-color: lightgray;
     width: 1000px;
-    height: 750px;
-    border: 1px solid black;
+    height: 970px;
+    border: 2px solid black;
     margin: auto;
     font-size: 45px;
 }
@@ -24,7 +24,21 @@ h2 {
     text-align: center;
 }
 
-h7 {
-    border: 1px;
-    background-color: lightgray;
+button {
+    background-color: #52c9ab;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #186854;
+}
+
+a:hover {
+    color: red
 }
