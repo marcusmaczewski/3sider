@@ -18,27 +18,69 @@
         </div>
 
         <br />
+        <h6>Opgave 1</h6>
+        <p style="font-size: 25px">Min fine tabel:</p>
+
+        <table>
+            <tr>
+                <th><u>PostNr</u></th>
+                <th><u>By</u></th>
+            </tr>
+            <tr>
+                <td>5000</td>
+                <td>Odense C</td>
+            </tr>
+            <tr>
+                <td>5250</td>
+                <td>Odense SV</td>
+            </tr>
+            <tr>
+                <td>7000</td>
+                <td>Fredericia</td>
+            </tr>
+        </table>
+
+        <h6>Opgave 3</h6>
+
+        <p style="font-size: 25px;">Indtast følgende oplysninger for at oprette dig som studerende:</p>
+
+        <form action="mailto:martin.jensen1996@yahoo.dk">
+            Navn:<br />
+            <input type="text" name="navn" /> <br />
+            E-mail:<br />
+            <input type="email" name="email" /> <br />
+            Klasse: <br />
+            <input type="text" name="klasse" /> <br />
+            Dm-nr:<br />
+            <input type="number" name="dmnr" /> <br />
+            Semester:<br />
+            <select>
+                <option value="semester1">1. Semester</option>
+                <option value="semester2">2. Semester</option>
+                <option value="semester3">3. Semester</option>
+                <option value="semester4">4. Semester</option>
+                <option value="semester5">5. Semester</option>
+            </select> <br />
+            Evt. understøttelse: <br />
+            <input type="radio" name="understøttelse" value="SU" checked /> SU <br />
+            <input type="radio" name="understøttelse" value="Revalidering" /> Revalidering <br />
+            <input type="radio" name="understøttelse" value="Ingen" /> Ingen <br />
+            Kommentarer: <br />
+            <textarea rows="4" cols="50" name="kommentar"></textarea> <br />
+            <input type="submit" /> <input type="reset" />
+        </form>
+
 
         <center>
-            <form style="display: inline" action="index.html">
-                <button>Forside</button>
-            </form>
-            <form style="display: inline" action="side1.html">
-                <button>Side 1</button>
-            </form>
+            <div class="knapper">
+                <form style="display: inline" action="index.html">
+                    <button>Forside</button>
+                </form>
+                <form style="display: inline" action="side1.html">
+                    <button>Side 1</button>
+                </form>
+            </div>
         </center>
-
-
-
-
-
-
     </div>
-
-
-
-
-
-
 </body>
 </html>
